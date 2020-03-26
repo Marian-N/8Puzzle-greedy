@@ -11,7 +11,7 @@ Example:
 
 **puzzle_goal = load_puzzle("Puzzles/3x3.txt")** #Choose file with goal state of puzzle
 
-**heuristics = [1, 2, 3]** #it can be [1] [2, 1] or any combination of numbers 1, 2 and 3
+**heuristics = [1, 2, 3]** #it can be [1] or [2, 1] or any combination of numbers 1, 2 and 3
 
 **solve(puzzle, puzzle_goal, heuristics)** #Solves puzzle with greedy algorithm
 
